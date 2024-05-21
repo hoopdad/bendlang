@@ -5,7 +5,7 @@
 I am running this through WSL on Windows 11 
  - Install the NVIDIA CUDA toolkit 
 ```
-sudo apt-get -y remove cuda-toolkit
+sudo apt-get -y install cuda-toolkit
 ```
 
  - Install Rust
