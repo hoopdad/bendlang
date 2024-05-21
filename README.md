@@ -8,7 +8,7 @@ I am running this through WSL on Windows 11
 sudo apt-get -y install cuda-toolkit
 ```
 
- - Install Rust
+ - Install Rust. Make sure to take the Nightly distro, which is an option if you go through a customized isntall.
 
 ```
 curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh
