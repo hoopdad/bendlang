@@ -28,6 +28,18 @@ Run `./bendrun.sh`
 
 Watch my demo video to see it run with my resources monitor open. (bend_demo_parallelism.mp4)
 
+## Problems Running
+
+I often see the below, though I have had some successful runs as the video shows. It seems the versions and sequence of installs is critical.
+
+```
+Errors:
+Error reading result from hvm. Output :
+Failed to launch kernels (error code the provided PTX was compiled with an unsupported toolchain.)!
+exit status: 1
+```
+
+I do not have a solution for the above other than to uninstall everything and re-install. (Though even that is not 100% for some reason - I must be skipping some step sometimes.)
 
 ## Cleanup
 
