@@ -6,12 +6,16 @@ I am running this through WSL on Windows 11
  - Install the NVIDIA CUDA toolkit `sudo apt-get -y remove cuda-toolkit`
  - Install Rust
 
-   `curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh
-   `. $HOME/.cargo/env`
+```
+curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh
+   . $HOME/.cargo/env
+```
 
  - Install the Rust modules from HigherOrderCO
-  `cargo +nightly install hvm`
-  `cargo +nightly install bend-lang`
+```
+cargo +nightly install hvm
+cargo +nightly install bend-lang
+```
 
 ## Run Examples
 
@@ -24,5 +28,7 @@ Watch my demo video to see it run with my resources monitor open. (bend_demo_par
 ## Cleanup
 
 To remove all the resources
- - `rustup self uninstall`
- - `sudo apt-get -y remove cuda-toolkit`
+```
+rustup self uninstall
+sudo apt-get -y remove cuda-toolkit
+```
