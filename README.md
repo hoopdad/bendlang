@@ -3,12 +3,16 @@
 ## Install
 
 I am running this through WSL on Windows 11 
- - Install the NVIDIA CUDA toolkit `sudo apt-get -y remove cuda-toolkit`
+ - Install the NVIDIA CUDA toolkit 
+```
+sudo apt-get -y remove cuda-toolkit
+```
+
  - Install Rust
 
 ```
 curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh
-   . $HOME/.cargo/env
+. $HOME/.cargo/env
 ```
 
  - Install the Rust modules from HigherOrderCO
