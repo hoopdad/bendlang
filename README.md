@@ -3,7 +3,7 @@
 ## Install
 
 I am running this through WSL on Windows 11 
- - Install the NVIDIA CUDA toolkit. I had issues with the latest isntaller from NVidia's CUDA site<https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&Distribution=WSL-Ubuntu&target_version=2.0&target_type=deb_local> but this one seems to function, even if it might not be the most performant.
+ - Install the NVIDIA CUDA toolkit. I had issues with the latest isntaller from [NVidia's CUDA site<https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&Distribution=WSL-Ubuntu&target_version=2.0&target_type=deb_local>] but this one seems to function, even if it might not be the most performant.
 ```
 sudo apt-get -y install cuda-toolkit
 ```
