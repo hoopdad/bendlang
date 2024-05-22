@@ -10,6 +10,11 @@ sudo apt-get -y install cuda-toolkit
 Also tried 5/22/2024:
 ```
 sudo apt-get -y install nvidia-cuda-toolkit
+sudo apt-get -y install nsight-compute-2024.1.1 nsight-systems-2024.2.3
+```
+I see this error on any of the nvidia or nsight installs:
+```
+/sbin/ldconfig.real: /usr/lib/wsl/lib/libcuda.so.1 is not a symbolic link
 ```
 
  - Install Rust. Make sure to pick Nightly as default toolchain, which is an option if you go through a customized isntall.
