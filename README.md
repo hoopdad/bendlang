@@ -33,8 +33,10 @@ cargo +nightly install bend-lang
 
 ## Run Examples
 
-I copied one of the examples from Bend Lang's repo and scripted it to run 3 different ways, with timings.
-Run `./bendrun.sh`
+I copied one of the examples from Bend Lang's repo and scripted it to run 3 different ways, with timings. Run 
+```
+./bendrun.sh
+```
 
 Watch my demo video to see it run with my resources monitor open. (bend_demo_parallelism.mp4)
 
