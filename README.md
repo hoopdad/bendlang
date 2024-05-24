@@ -2,7 +2,7 @@
 
 ## Install
 
-I am running this through WSL2 on Windows 11.
+I am running this through WSL2 on Windows 11. It is likely that other platforms have similar but different procedures. Feel free to submit a PR if you want to write that up.
 
  - Install the NVIDIA CUDA toolkit. Reference [NVidia's CUDA site](https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&Distribution=WSL-Ubuntu&target_version=2.0&target_type=deb_local) 
 ```
