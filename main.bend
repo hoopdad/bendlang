@@ -1,3 +1,4 @@
+# Example from readme on https://github.com/HigherOrderCO/bend
 # Sorting Network = just rotate trees!
 def sort(d, s, tree):
   switch d:
