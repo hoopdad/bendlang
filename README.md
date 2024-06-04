@@ -1,5 +1,9 @@
 # Experimenting with Bend
 
+## About Bend
+
+Bend is a high level language like python that easily runs on CPUs or GPUs, without the configuration needed on specialized GPU compilers. Thanks to my friend and colleague Gus for introducing me to it.
+
 ## Install
 
 I am running this through WSL2 on Windows 11, on a laptop with an Intel i5 processor and an NVidia RTX-2050 graphics card. It is likely that other platforms have similar but different installation procedures and different hardware configurations give different results.
@@ -92,3 +96,7 @@ rustup self uninstall
 sudo apt-get -y remove nvidia-cuda-toolkit nsight-compute-2024.1.1 nsight-systems-2024.2.3 cuda-toolkit 
 sudo apt-get -y autoremove
 ```
+
+## References
+
+- Higher Order - creator of Bend: https://github.com/HigherOrderCO/bend
