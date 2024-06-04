@@ -41,7 +41,7 @@ I copied one of the examples from Bend Lang's repo and scripted it to run 3 diff
 ```
 ### Recording 5/22
 
-Watch my demo video to see it run with my resources monitor open. (bend_demo_parallelism.mp4)
+Watch my demo video to see it run with my resources monitor open. ([bend_demo_parallelism.mp4](https://github.com/hoopdad/bendlang/raw/main/bend_demo_parallelism.mp4))
 
 ## Results 5/22
 
