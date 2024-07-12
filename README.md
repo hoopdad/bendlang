@@ -16,8 +16,7 @@ wget https://developer.download.nvidia.com/compute/cuda/12.5.0/local_installers/
 sudo dpkg -i cuda-repo-wsl-ubuntu-12-5-local_12.5.0-1_amd64.deb
 sudo cp /var/cuda-repo-wsl-ubuntu-12-5-local/cuda-*-keyring.gpg /usr/share/keyrings/
 sudo apt-get update
-sudo apt-get -y install cuda-toolkit nsight-compute-2024.1.1 nsight-systems-2024.2.3
-sudo apt-get -y install nvidia-cuda-toolkit
+sudo apt-get -y install cuda-toolkit nsight-compute nsight-systems nvidia-cuda-toolkit
 export PATH="/usr/local/cuda-12.5/bin:$PATH"
 export LD_LIBRARY_PATH="/usr/local/cuda-12.5/lib64:$LD_LIBRARY_PATH"
 nvcc --version
